@@ -130,7 +130,6 @@ class Ui_Form(object):
 
     def copycatalog(self):
         setText(self.textEdit_catalog.toPlainText())
-<<<<<<< HEAD
         self.pushButton_copycatalog.setText("已复制")
 
     def copyanchor(self):
@@ -140,7 +139,6 @@ class Ui_Form(object):
     def copycontent(self):
         setText(self.textEdit_content.toPlainText())
         self.pushButton_content.setText("已复制")
-=======
         self.pushButton_copycatalog.setText("已复制1")
 
     def copyanchor(self):
@@ -150,7 +148,6 @@ class Ui_Form(object):
     def copycontent(self):
         setText(self.textEdit_content.toPlainText())
         self.pushButton_content.setText("已复制1")
->>>>>>> 1e346a2d69a756a6beec3e4c15c003d5c7ca17a1
 
     def generate(self):
         self.catalog="[`{}`](#{})  ".format(self.textEdit_keyword.toPlainText(),self.textEdit_keyword.toPlainText())
